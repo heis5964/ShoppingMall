@@ -30,7 +30,7 @@ if (isset($_GET)) {
 
 		
 							
-		$sql = "INSERT INTO `user`(`id`, `name`, `type`, `address`, `phone`, `user`, `password`, `avatar`, `lat`, `lng`) VALUES (Null,'$name','$type','$address','$phone','$user','$password','$avatar','$lat','$lng'')";
+		$sql = "INSERT INTO `user`(`id`, `name`, `type`, `address`, `phone`, `user`, `password`, `avatar`, `lat`, `lng`) VALUES (Null,'$name','$type','$address','$phone','$user','$password','$avatar','$lat','$lng')";
 
 		$result = mysqli_query($link, $sql);
 
